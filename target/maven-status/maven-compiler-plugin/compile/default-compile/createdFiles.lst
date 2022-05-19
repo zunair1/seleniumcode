@@ -1,0 +1,11 @@
+Helpers\Utils\ExtentReport\ExtentManager.class
+automationtest\pages\CartPage.class
+automationtest\pages\LoginPage.class
+automationtest\pages\Checkout_2.class
+te.class
+test.class
+automationtest\pages\Checkout_1.class
+automationtest\pages\InventoryPage.class
+t2.class
+automationtest\pages\Checkout_Complete.class
+Helpers\Utils\ExtentReport\ExtentTestManager.class

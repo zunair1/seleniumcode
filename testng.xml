@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+         <listener class-name="Helpers.Utils.Listeners.TestListener"/>
+    </listeners> 
+  <test name="LoginTestCases">
+  <groups>
+  	<run>
+  		<include name="Smoke" />
+  	</run>
+  </groups>
+    <classes>
+      <class name="automationtest.test.LoginTestCases"/>
+      <class name="automationtest.test.Verifyfalse"/>
+    </classes>
+  </test>
+   
+  <!-- <test name="DeleteCsvTestCase">
+    <groups>
+  	<run>
+  		<include name="Smoke" />
+  	</run>
+  </groups>
+  	<classes>
+  		<class name="MicroAccountingAutomation.Test.DeleteCsvTestCase"/>
+  	</classes>
+  </test> -->
+  
+</suite> <!-- Suite -->
